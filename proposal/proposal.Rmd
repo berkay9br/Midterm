@@ -1,0 +1,64 @@
+---
+title: "Analysis on Causes of Deaths of Patients with Diabetes"
+author: "Bor, Berkay[^1]"
+bibliography: ../bibliography/biblio.bib
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+  pdf_document: 
+    latex_engine: xelatex
+header-includes:
+- \usepackage{polyglossia}
+- \setmainlanguage{english}
+- \usepackage{booktabs}
+- \usepackage{caption}
+- \captionsetup[table]{skip=10pt}
+csl: ../csl/apa.csl
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 20080474, [Github Repo](https://github.com/berkay9br/Midterm.git)
+
+
+# Introduction
+Diabetes has become more common, especially after the Cold War, and it has many negative impacts on people's health. It even causes deaths. This research aims to analyse the causes of death of diabetes patients and to find out if there are any accelerating factors or not. In this analysis, a dataset called "AH Provisional Diabetes Death Counts for 2020" from National Center for Health Statistics will be used. COVID-19 has been particularly severe in people with chronic disease including diabetes. In the dataset people that had both COVID-19 and diabetes has been included as well as some other chronic diseases. To summarise, despite several researches, more information and analyses is needed to find sub-factors of death of diabetes and the effect of COVID-19. Specifically, following research questions could be adressed:
+
+* Is diabetes the only factor in deaths?
+* If there are other factors, what kind of factors plays a role?
+* What kind of effects does COVID-19 have on diabetes?
+
+## Literature Review
+
+The literature review has showed that past studies has mainly focused on a severe type of diabetes called Diabetes Mellitus as well as Periodontitis. Especially after COVID-19, several studies have been focusing on the relationship between COVID-19 and some chronic diseases such as diabetes. Significant progress has been made on noticing the effects and explaining the relationships between diabetes and the other factors by using epidemiological and clinical data.
+
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
+[@kutluturk2020covid]
+
+[@kesici2016diyabet]
+
+[@kutluturk2020covid]
+
+[@erener2020diabetes]
+
+[@abdi2020diabetes]
+
